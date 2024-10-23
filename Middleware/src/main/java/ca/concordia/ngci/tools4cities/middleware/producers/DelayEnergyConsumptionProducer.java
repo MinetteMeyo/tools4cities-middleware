@@ -12,7 +12,7 @@ import ca.concordia.ngci.tools4cities.middleware.middleware.IProducer;
  */
 public class DelayEnergyConsumptionProducer extends AbstractProducer<String> implements IProducer<String> {
 
-	private final int columnIndex;
+    private final int columnIndex;
     private long fetchEndTime;
     private long fetchStartTime;
     private int fetchCallCount = 0; // Counter to track fetch calls
